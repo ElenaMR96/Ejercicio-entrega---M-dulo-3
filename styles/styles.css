@@ -85,9 +85,7 @@ h3 {
 p {
     width: 55%;
     height: auto;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    margin-left: 50px;
+    margin: 20px 50px 20px; 
     text-align: justify;
     color: #323030;
 }
@@ -96,12 +94,11 @@ img {
     height: 350px;
     width: 350px;
     display: block;
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 15px;
     margin-right: 50px;
     float: right;
 }
-
 
 #image_container {
     width:100%;
@@ -111,6 +108,15 @@ img {
 #image_left {
     float: right;
     width: 33%;
+}
+
+ ul {
+    width: 90%;
+    list-style-type: disc;
+    margin-left: 60px;
+    padding: 0px;
+    color: #323030;
+    line-height: 2;
 }
 
 footer {
