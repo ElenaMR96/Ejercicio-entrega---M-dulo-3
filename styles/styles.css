@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    line-height: 1.7;
+    background-color: #f4f5f7;
+    color: #4a4f55;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 18px 30px;
+    text-align: center;
+}
+nav a {
+    color:#ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+    color:#c9b9d9;
+}
+.cabecera {
+    position: relative;
+    height: 325px;
+    background-image:
+        linear-gradient(
+            rgba(52, 73, 94, 0.65),
+            rgba(142, 122, 168, 0.65)),
+        url("../images/fotoportada.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cabecera h1 {
+    margin: 0;
+    padding: 20px 40px;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: normal;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+}   
+
+#cita {
+    max-width: 900px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px 40px;
+    font-size: 1rem;
+    font-style: italic;;
+    color: #4a4f55;
+    line-height: 1.8;
+    text-align: center;
+
+}
+#cita p {
+    width: 90%;
+    margin: 5px auto 0;
+    font-size: 1rem;
+    font-style: normal;
+    color: #6d6674;
+    text-align: center;
+              
+}
+h2 {
+    font-size: 2rem;
+    color: #323030;
+    margin: 50px 50px 15px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.25rem;
+    color: #d5d9dd;
+    margin: 15px 0;
+    text-align: center;
+}
+p {
+    width: 55%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    text-align: justify;
+    color: #323030;
+}
+img {
+    max-width: 100%;
+    height: 350px;
+    width: 350px;
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    float: right;
+}
+
+
+#image_container {
+    width:100%;
+    overflow:auto;
+}
+
+#image_left {
+    float: right;
+    width: 33%;
+}
+
+footer {
+    background-color: #34495e;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 50px 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 40px;
+}
+ 
+.footer-redes, .footer-contacto, .footer-direccion {
+    width: 30%;
+}
+
+footer p  {
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.footer-redes a, .footer-contacto a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-redes a:hover {
+    color: #c9b9d9;
+
+}
+.footer-contacto a:hover {
+    color: #c9b9d9;
+}
+
+.footer-direccion p {
+    font-size: 0.9rem;
+    color: white;
+}   
+
+.copyright {
+    width: 100%;
+    margin: 15px auto 0;
+    font-size: 0.8rem;
+}
+
+.copyright p {
+    text-align: center;
+    color: #d5d9dd;
+}
