@@ -57,7 +57,6 @@ nav a:hover {
         url("../images/proyectotesis.jpg");
     background-position: center ;
 }
-    
 
 .cabecera-proyecto2 {
     background-image:
@@ -69,6 +68,15 @@ nav a:hover {
     background-position: bottom ;
 }
 
+.cabecera-proyecto3 {
+    background-image:
+        linear-gradient(
+            rgba(52, 73, 94, 0.65),
+            rgba(142, 122, 168, 0.65)
+        ),
+        url("../images/proyectocarteras.jpg");
+    background-position: center ;
+}
 #cita {
     max-width: 900px;
     width: 80%;
@@ -251,6 +259,43 @@ ul a:hover {
 }
 
 .descripcion-proyecto a:hover {
+    color: #8e7aa8;
+}
+
+.docenciatexto {
+    width: 90%;
+    margin: 0 auto;
+}
+ .docenciatexto p {
+    width: 60%;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.docenciatexto img {
+    float: right;
+    width: 33%;
+    height: 300px;
+    object-fit: cover;
+    margin: 125px 0 20px 60px;
+}
+
+.docenciatexto ul {
+    width: 50%;
+    list-style-type: disc;
+    margin-left: 60px;
+    padding: 0px;
+    color: #323030;
+    line-height: 2    
+}
+
+.docenciatexto a {
+    color: #34495e;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.docenciatexto a:hover {
     color: #8e7aa8;
 }
 
