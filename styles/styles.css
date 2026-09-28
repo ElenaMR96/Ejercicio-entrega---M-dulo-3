@@ -48,6 +48,27 @@ nav a:hover {
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
 }   
 
+.cabecera-proyecto1 {
+    background-image:
+        linear-gradient(
+            rgba(52, 73, 94, 0.65),
+            rgba(142, 122, 168, 0.65)
+        ),
+        url("../images/proyectotesis.jpg");
+    background-position: center ;
+}
+    
+
+.cabecera-proyecto2 {
+    background-image:
+        linear-gradient(
+            rgba(52, 73, 94, 0.65),
+            rgba(142, 122, 168, 0.65)
+        ),
+        url("../images/proyecto2foto.jpg");
+    background-position: bottom ;
+}
+
 #cita {
     max-width: 900px;
     width: 80%;
@@ -126,7 +147,7 @@ img {
 }
 
  ul {
-    width: 90%;
+    width: 92%;
     list-style-type: disc;
     margin-left: 60px;
     padding: 0px;
@@ -211,6 +232,26 @@ ul a:hover {
 .boton:hover {
     background-color: #34495e;
     color: white;
+}
+
+.descripcion-proyecto h5 {
+    margin: 25px 50px 10px;
+}
+
+.descripcion-proyecto p {
+    width: 90%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.descripcion-proyecto a {
+    color: #34495e;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.descripcion-proyecto a:hover {
+    color: #8e7aa8;
 }
 
 footer {
