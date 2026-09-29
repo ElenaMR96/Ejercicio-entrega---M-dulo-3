@@ -306,14 +306,10 @@ ul a:hover {
     margin: 30px 0 20px 60px;
 }
 
-#foto2docencia {
-    float: right;
-    width: 33%;
-    height: 250px;
-    object-fit: cover;
-    margin: 60px 0 20px 15px;
-    clear: both;
+#foto2{
+       clear: both;
 }
+
 .docenciatexto {
     width: 90%;
     max-width: 1200px;
