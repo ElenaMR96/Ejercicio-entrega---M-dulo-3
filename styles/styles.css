@@ -386,7 +386,7 @@ footer p  {
 }
 
 .copyright p {
-    text-align: center;
+    text-align: left;
     color: #d5d9dd;
 }
 @media (max-width: 768px) {
