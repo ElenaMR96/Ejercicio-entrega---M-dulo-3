@@ -17,12 +17,12 @@ nav a {
     font-size: 0.95rem;
     margin: 0 10px;
     transition: color 0.3s ease;
-
 }
 
 nav a:hover {
     color:#c9b9d9;
 }
+
 .cabecera {
     position: relative;
     height: 325px;
@@ -271,6 +271,7 @@ ul a:hover {
 
 .descripcion-proyecto {
     max-width:1200px;
+    margin: 0 auto;
 }
 .descripcion-proyecto h5 {
     margin: 25px 50px 10px;
@@ -291,6 +292,11 @@ ul a:hover {
 
 .descripcion-proyecto a:hover {
     color: #8e7aa8;
+}
+
+.publicaciones {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .docenciatexto {
