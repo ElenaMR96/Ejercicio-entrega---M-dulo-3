@@ -300,11 +300,10 @@ ul a:hover {
 
 .docenciatexto img {
     float: right;
-    width: 33%;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
-    margin: 15px 0 20px 60px;
-    clear:both;
+    margin: 30px 0 20px 60px;
 }
 
 #foto2docencia {
