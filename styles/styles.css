@@ -19,6 +19,11 @@ nav a {
     transition: color 0.3s ease;
 }
 
+nav a + a {
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    padding-left: 20px;
+}
+
 nav a:hover {
     color:#c9b9d9;
 }
@@ -444,73 +449,90 @@ footer p  {
 @media (max-width: 768px) {
 
     nav {
-        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px 16px;
+        padding: 12px 10px;
     }
 
-    nav a {
-        margin: 0 5px;
-        font-size: 0.85rem;
-    }
+    nav a { margin: 0; font-size: 0.9rem; }
 
-    .cabecera {
-        height: 250px;
-    }
+    nav a + a { border-left: none; padding-left: 0; }
 
-    .cabecera h1 {
-        font-size: 2rem;
-        padding: 20px;
-    }
+    .cabecera { height: auto; min-height: 220px; }
+    .cabecera h1 { font-size: 1.8rem; padding: 20px; }
 
-    p {
-        width: 85%;
-        margin: 20px auto;
-    }
-
-    img {
-        float: none;
-        width: 80%;
-        height: auto;
-        margin: 30px auto;
-    }
-
-    .docenciatexto {
-        width: 90%;
-    }
-
-    .docenciatexto p {
+    #presentación, .introformacion, .docenciatexto, .imagen {
         width: 100%;
     }
 
+    
+    h2, h5,
+    #presentación h2,
+    .introformacion h2,
+    .descripcion-proyecto h5 {
+        margin: 30px 20px 10px;
+    }
+    h2 { font-size: 1.6rem; }
+
+   
+    p,
+    #presentación p,
+    .introformacion p,
+    .descripcion-proyecto p,
+    .docenciatexto p {
+        width: auto;
+        margin: 15px 20px;
+        text-align: left;
+    }
+
+    
+    ul,
+    .docenciatexto ul {
+        width: auto;
+        margin: 15px 20px;
+        padding-left: 20px;
+    }
+
+    
+    img,
+    .imagen img,
     .docenciatexto img {
         float: none;
-        width: 70%;
+        display: block;
+        width: 80%;
+        max-width: 320px;
         height: auto;
-        margin: 30px auto;
+        margin: 25px auto;
     }
+    .imagen img { aspect-ratio: 1 / 1; object-fit: cover; }
+    #image_left { float: none; width: 100%; }
 
-    .proyecto {
-        width: 90%;
-    }
+   
+    #cita { width: 90%; padding: 15px 10px; }
 
+   
+    .proyecto { width: 92%; }
     .proyecto-header {
         grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
     }
+    .proyecto-imagen { width: 100%; height: auto; }
 
-    .proyecto-imagen {
-        width: 100%;
-        height: auto;
-    }
-
+   
     footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        padding: 25px 20px 15px;
     }
-
     .footer-redes,
     .footer-contacto,
     .footer-direccion {
         width: 100%;
         margin-bottom: 20px;
     }
+    .copyright p { text-align: center; }
 }
