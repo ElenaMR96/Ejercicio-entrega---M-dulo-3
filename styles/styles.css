@@ -269,6 +269,9 @@ ul a:hover {
     color: white;
 }
 
+.descripcion-proyecto {
+    max-width:1200px;
+}
 .descripcion-proyecto h5 {
     margin: 25px 50px 10px;
     max-width:1200px;
@@ -276,7 +279,6 @@ ul a:hover {
 
 .descripcion-proyecto p {
     width: 90%;
-    max-width: 1200px;
     text-align: justify;
     margin-bottom: 10px;
 }
