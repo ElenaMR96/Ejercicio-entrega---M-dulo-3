@@ -56,7 +56,6 @@ nav a:hover {
         ),
         url("../images/proyectotesis.jpg");
     background-position: center ;
-    max-width:1200px;
 }
 
 .cabecera-proyecto2 {
@@ -66,8 +65,7 @@ nav a:hover {
             rgba(142, 122, 168, 0.65)
         ),
         url("../images/proyecto2foto.jpg");
-    background-position: bottom ;
-    max-width:1200px;
+    background-position: bottom;
 }
 
 .cabecera-proyecto3 {
@@ -78,8 +76,20 @@ nav a:hover {
         ),
         url("../images/proyectocarteras.jpg");
     background-position: center ;
-    max-width:1200px;
 }
+
+.cabecera-proyecto1 h1 {
+    max-width: 1200px;
+}
+
+.cabecera-proyecto2 h1 {
+    max-width: 1200px;
+}
+
+.cabecera-proyecto3 h1 {
+    max-width: 1200px;
+}  
+
 #cita {
     max-width: 900px;
     width: 80%;
